@@ -1,7 +1,7 @@
-package sp2p
+package pserver
 
 import "fmt"
 
-func start() {
+func serv() {
 	fmt.Print("starting server")
 }
