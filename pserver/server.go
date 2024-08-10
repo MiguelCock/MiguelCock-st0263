@@ -2,6 +2,6 @@ package pserver
 
 import "fmt"
 
-func serv() {
+func Serv() {
 	fmt.Print("starting server")
 }
