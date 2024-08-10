@@ -1,12 +1,14 @@
 package main
 
 import (
-	"fmt"
+	"log"
 
 	"github.com/MiguelCock/MiguelCock-st0263.git/pserver"
 )
 
 func main() {
-	fmt.Println("peer to peer")
-	pserver.Serv()
+	err := pserver.Serv()
+	if err != nil {
+		log.Fatal(err)
+	}
 }
