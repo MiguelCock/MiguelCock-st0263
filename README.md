@@ -1,5 +1,7 @@
 # P2P SERVER IN GO
 
+---
+
 ## Architecture
 
 ## Services
@@ -11,20 +13,21 @@
 ## Plan
 
 - Read information about
-  [] P2P
-  [] MOM
-  [] DHT
+
+  - [] P2P
+  - [] MOM
+  - [] DHT
 
 - Write user stories for:
 
-  - seeder
-  - leecher
+  1. seeder
+  2. leecher
 
 - Implement the code of:
 
-  - mom server functionalities
-  - seeder server functionalities
-  - leecher server functionalities
+  1. mom server functionalities
+  2. seeder server functionalities
+  3. leecher server functionalities
 
 ## Docs
 
@@ -32,8 +35,8 @@ To use the app run:
 
 - Fill the log file with the following info:
 
-  - user IP
-  - user Port
-  - Dir of files (write 0 to only conect to dowload)
+  1. user IP
+  2. user Port
+  3. Dir of files (write 0 to only conect to dowload)
 
 - go run main.go
