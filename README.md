@@ -1,22 +1,36 @@
 # P2P SERVER IN GO
 
----
-
-## Architecture
-
-## Services
-
-## How to localize items
-
-## Components
-
-## Plan
+## Questions
 
 - Read information about
 
-  - [] P2P
-  - [] MOM
-  - [] DHT
+  1. P2P
+  2. MOM
+  3. DHT
+
+## Architecture
+
+I will do a hybrid P2P server.
+
+## Services
+
+Conect to the server
+
+Serv files
+
+Download files
+
+## How to localize items
+
+## Components and Interactions
+
+MOM
+
+Seeder
+
+Leecher
+
+## Plan
 
 - Write user stories for:
 
@@ -31,7 +45,7 @@
 
 ## Docs
 
-To use the app run:
+To use the app you have to do the following steps:
 
 - Fill the log file with the following info:
 

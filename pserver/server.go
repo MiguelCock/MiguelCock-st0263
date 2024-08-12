@@ -13,9 +13,11 @@ func Serv() error {
 		return err
 	}
 
-	fmt.Fprintf(conn, "GET / HTTP/1.0\r\n\r\n")
+	fmt.Fprintf(conn, "GET / HTTP/1.0\r\n\n")
+
 	status, err := bufio.NewReader(conn).ReadString('\n')
 
 	fmt.Print(status)
+
 	return err
 }
